@@ -1,0 +1,22 @@
+Source: keep-webapps
+Section: web
+Priority: standard
+Maintainer: Tor Krill <tor@openproducts.se>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: http://www.openproducts.se
+
+Package: keep-webapps
+Architecture: all
+Depends: ${misc:Depends},
+ nextcloud,
+ nc-calendar,
+ nc-contacts,
+ nc-tasks,
+ oc-opi-auth,
+ roundcubemail,
+ rc-opi-addressbook,
+ rc-opi-identities 
+Description: Keep meta package 
+ Package responsible for pulling in used web applications
+ for Keep
