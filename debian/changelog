@@ -1,3 +1,9 @@
+keep-webapps (1.1) vili; urgency=medium
+
+  * Buster update
+
+ -- Tor Krill <tor@openproducts.se>  Fri, 30 Aug 2019 14:39:54 +0200
+
 keep-webapps (1.0) vili; urgency=medium
 
   * Initial Release.
